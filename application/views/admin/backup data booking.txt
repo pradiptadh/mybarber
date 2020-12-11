@@ -1,0 +1,38 @@
+<div class="content">
+	<div class="row">
+		<?php foreach ($history as $datanya): ?>
+			
+			<div class="col-md-4">
+				<div class="box box-solid">
+					<div class="box-header with-border">
+						<i class="fa fa-text-width"></i>
+
+						<h3 class="box-title">Data Pemesanan Anda</h3>
+					</div>
+					<!-- /.box-header -->
+					<div class="box-body">
+						<blockquote><label>Nama Pemesan</label>
+							<p><small><?=$datanya->nama?></small></p>
+							<label>No Antrian</label>
+							<p><small><?=$datanya->nomer?></small></p>
+							<label>Jam</label>
+							<p><small><?=$datanya->booking?></small></p>
+							<label>Tanggal</label>
+							<p><small><?=$datanya->tgl?></small></p>
+							<label>Status</label>
+							<p><small><?=$datanya->status?></small></p>
+						</blockquote>
+						<?php  if($this->uri->segment(2) == 'tiket'){ ?>
+							<a onclick="print('<?=$datanya->id_booking?>')" class="btn btn-danger">Print Data</a>
+						<?php }else if ($datanya->status == 'pending' OR $datanya->status == 'booking'){ ?>
+							<a onclick="selesai('<?=$datanya->id_booking?>')" class="btn btn-danger">Selesaikan Pesanan</a>
+							
+						<?php }?>
+					</div>
+					<!-- /.box-body -->
+				</div>
+				<!-- /.box -->
+			</div>
+		<?php endforeach ?>
+	</div>
+</div>

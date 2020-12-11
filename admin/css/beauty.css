@@ -1,0 +1,306 @@
+.mainbg{
+	margin-top: -65px;
+	background: #999 url(../img/bg2.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+.btm{
+	width: 20%;
+	border-bottom: solid 3px #333;
+}
+.form-group{
+	margin-bottom: 0 !important;
+}
+.form-group .mform{
+	padding: 25px 20px;
+	border-radius: 0;
+}
+.form-group .mform:focus{
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.mybtn{
+	padding: 15px 25px !important;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+.mybtnDaftar{
+	color: #eaeaea !important;
+	/*opacity: 0.87 !important;*/
+}
+a{
+	text-decoration: none !important;
+}
+.mybtn:active,.mybtn:focus{
+	outline: none !important;
+}
+.mybtn:hover{
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+.mainnya{
+	font-family: 'Avenir Next' !important;
+}
+#top{
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+	border: none;
+}
+#top a.navbar-brand{
+	padding: 5px 0;
+	color: #2fa9ca;
+}
+#top .navAwal li.linknya a:hover{
+	color: #2fa9ca;
+	margin-top: -3px;
+	border-bottom: solid 3px #2fa9ca;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+#top .navAwal li{
+	padding: 0px;
+}
+#top .navAwal li.linknya a{
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	padding: 21px;
+}
+#top .navAwal li a button.btnlog{
+	padding: 0;
+	border-color: #2fa9ca;
+	color: #2fa9ca;
+	margin: -10px;
+}
+#top .navAwal li a button.btnlog:hover{
+	background: transparent;
+	color: #fff;
+	background: #2fa9ca;
+}
+#top .navAwal li a button.btnreg{
+	padding: 0;
+	margin: -10px;
+	border-color: #f06464;
+	background: transparent;
+	color: #f06464;
+}
+#top .navAwal li a button.btnreg:hover{
+	background: transparent;
+	color: #fff;
+	background: #f06464;
+	margin: -10px;
+}
+.navbar-nav li.linknya a.active{
+	margin-top: -3px !important;
+	border-bottom: solid 3px #2fa9ca !important;
+}
+/*Sign In and Up*/
+#mynav{
+	background: transparent;
+	border: none;
+}
+#mynav .navAwal li{
+	padding: 20px 0;
+}
+#mynav .navAwal li a.mybtn{
+	background: transparent;
+	color: #eaeaea;
+}
+#mynav .navAwal li a.mybtn:hover{
+	background: rgba(255,255,255,.7);
+	color: #333;
+}
+.carousel-inner .item .carousel-caption{
+	position: absolute;
+	right: 25px;
+	left: 25px;
+	padding: 0;
+	bottom: 0;
+	font-family: 'Avenir Next';
+	text-align: left;
+}
+.carousel-inner .item .carousel-caption h1{
+	font-weight: 100 !important;
+	font-size: 3em;
+	color: #2fa9ca;
+}
+.carousel-inner .item .carousel-caption h1 small{
+	color: #f9f9f9;
+	opacity: 0.7;
+	margin-top: -10px !important;
+}
+.carousel-inner .item .carousel-caption button.btnget{
+	background: rgba(0,0,0,.7);
+	border: none;
+	color: #fff;
+	border-radius: 2px 2px 0 0;
+	padding: 20px 70px !important;
+}
+.carousel-inner .item .carousel-caption button.btnget:hover{
+	background: rgba(0,0,0,.5)
+}
+.mypan:hover{
+	border-color: #000;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.mypan:hover h2,.mypan:hover i{
+	color: #000;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.mFoot div{
+	background: #333;
+	color: #dedede;
+	padding:15px 0 !important;
+}
+.mFoot div.sosmed{
+	padding: 0 !important;
+}
+.mFoot div.sosmed a:hover i{
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	border-color: transparent;
+}
+.mFoot div.sosmed a.fac:hover i{
+	background: #335589;
+	color: #f9f9f9;
+}
+.mFoot div.sosmed a.twit:hover i{
+	background: #52aac9;
+	color: #f9f9f9;
+}
+.mFoot div.sosmed a.gplus:hover i{
+	background: #f06464;
+	color: #f9f9f9;
+}
+.mFoot div.sosmed a.fac i{
+	color: #335589;
+}
+.mFoot div.sosmed a.twit i{
+	color: #52aac9;
+}
+.mFoot div.sosmed a.gplus i{
+	color: #f06464;
+}
+.mFoot div.sosmed a i{
+	font-weight: 500 !important;
+	border:solid 1px #999;
+	border-radius: 3px;
+	padding: 10px;
+	width: 45px;
+	margin: 0 10px !important;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+#contact a{
+	color: #999 !important;
+}
+#contact a:hover{
+	color: #2fa9ca !important;
+}
+
+#contact .mybtnCt{
+	background: transparent;
+	border: solid 2px #f9f9f9;
+	padding: 10px 15px;
+	border-radius: 0;
+	color: #fff;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+#contact .mybtnCt:hover,#contact .mybtnCt:focus{
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+	border: solid 2px #f9f9f9;
+	padding: 10px 15px !important;
+	background: #fff;
+	color: #2fa9ca;	
+}
+div.form-group .myform{
+	display: block !important;
+	width: 100% !important;
+	padding: 8px 15px !important;
+	font-size: 15px !important;
+	color: #b6b6b6 !important;
+	background: #fff !important;
+	border-bottom: 2px solid #2fa9ca !important;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s !important;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+	margin-bottom: 15px !important;
+	box-shadow: none;
+	border-radius: 0px;
+	border: none;
+	-webkit-appearance: none;
+}
+div.form-group .myform:focus{
+	outline: transparent !important;
+	box-shadow: none;
+}
+@font-face {
+  font-family: 'Mr Dafoe';
+
+  src: url('../fonts/MrDafoe.woff');
+}
+@font-face {
+  font-family: 'Avenir Next';
+
+  src: url('../fonts/AvenirNextLTPro-Regular.woff');
+  src: url('../fonts/AvenirNextLTPro-Regular.woff?#iefix') format('woff');
+}
+@media(max-width:1024px){
+	.mainbg .container .log{
+		margin: 9.45% auto !important;
+	}
+	.mainbg .container .reg{
+		margin: 6.8% auto !important;
+	}
+}
+@media(max-width:768px){
+	body{
+		padding-top: 50px !important;
+	}
+	#top a.navbar-brand{
+		margin: -8px 20px;
+	}
+	#top .navAwal li a button{
+		width: 100%;
+		margin: 0 0px 5px 0 !important;
+	}
+	#mynav{
+		background: #f9f9f9 !important;
+	}
+	#mynav .navAwal li a.mybtn{
+		color: #f06464;
+		margin: 0 10px;
+	}
+}
